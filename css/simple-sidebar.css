@@ -1,0 +1,255 @@
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+body{
+    font-size: 100%;
+    background-image: url("../images/cardboard_flat.png");
+}
+
+
+/* theme color */
+.label-asking-a-rq{
+    background-color: #6AC448;
+}
+.label-finding-the-evidence{
+    background-color: #F0BF4B;
+}
+.label-quantitative-research-epidemiology{
+    background-color: #D9534F;
+}
+.label-quantitative-research-biostatistics{
+    background-color: #724BF0;
+}
+.label-qualitative-approaches-to-health-science-research{
+    background-color: #48E6D6;
+}
+.label-research-ethics-and-integrity{
+    background-color: #DB4BF0;
+}
+.label-critical-appraisal-of-the-literature{
+    background-color: #A59DD6;
+}
+.label-relationship-between-se-and-cp{
+    background-color: #D9928B;
+}
+.label-knowledge-translation{
+    background-color: #20422D;
+}
+.label-alternative-and-or-new-approaches{
+    background-color: #C4B57E;
+}
+/* theme color ends*/
+
+.sidebar-nav li:not(.sidebar-brand) a{
+    font-size: 1.2em;
+}
+.panel-heading{
+    font-size: 1.5em;
+}
+.panel-body{
+    position: relative;
+    font-size: 1.3em;
+}
+.panel-footer{
+    font-size:1.1em;
+}
+.navbar-brand{
+    color:white;
+    font-size:1.5em;
+}
+.module-link{
+    padding: 5px 20px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 0.8em;
+}
+.theme-label{
+    color:white;
+    padding:5px;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+a.theme-name{
+    color:#31708F;
+}
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#menu-toggle, .search-input{
+    margin: 15px 0;
+    float:right;
+}
+.search-input .glyphicon-search{
+    top:0;
+}
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    line-height: 15px;
+    padding-left: 10px;
+}
+.sidebar-nav .theme-item{
+    border-bottom: 1px solid grey;
+}
+.sidebar-nav .theme-item:hover{
+    display: block;
+}
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+#sidebar-wrapper .search-input{
+    display: none;
+}
+
+.hide{
+    display: none
+}
+.full-width{
+    width: 100%;
+}
+
+.module-card .panel{
+    height:200px;
+    overflow: hidden;
+}
+.module-card .panel-heading{
+    min-height:20%;
+}
+.module-card .panel-body{
+    text-align: center;
+    height:50%;
+}
+.module-card .panel-footer{
+    min-height:40%;
+}
+.module-card .panel-footer ul{
+    padding:0;
+    list-style: none;
+}
+.module-card .panel-footer ul li{
+    padding:0;
+    float:left;
+    font-size: 1em;
+}
+@media(max-width:768px){
+    #sidebar-wrapper .search-input{
+        display:block;
+        width: 90%;
+        float:left;
+    }
+    #sidebar-wrapper .search-input .input-group{
+        width: 100%;
+        margin: 0 20px;
+    }
+    #sidebar-wrapper .search-input .input-group input{
+        border-radius: 5px;
+    }
+    #header-content-wrapper .search-input{
+        display:none;
+    }
+}
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        margin-top: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}

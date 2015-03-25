@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='hsrApp'>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HSR Template">
+    <meta name="author" content="Eddie Li">
+
+    <title> Health Sciences Research Modules</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body ng-controller="moduleCtrl">
+
+    <div id="wrapper" >
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#"ng-click="query=''">
+                    Health Sciences Research
+                  </a>
+                </div>
+              </div>
+            <ul class="sidebar-nav nav nav-pills nav-stacked">
+                <li class="theme-item">
+                    <a  href="#" ng-click="query=''">All Themes</a>
+                </li>
+                <li class="theme-item" ng-repeat="module in moduleList | unique: 'theme'">
+                    <a href="#" ng-click="updateQuery(module.theme)">{{module.theme}}</a>
+                </li>
+                
+                <li>
+                     <div class="search-input">
+                            <div class="input-group">
+                              <input type="text" ng-model="query" class="form-control" placeholder="Search" aria-describedby="basic-addon2">
+                             
+                            </div>
+                        </div>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="header-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 ">
+                        
+                        <div class="menu col-md-2 col-xs-2 pull-right">
+                            <a href="#menu-toggle" class="btn btn-default " id="menu-toggle">Menu</a>
+                        </div>
+
+                        <div class="search-input col-md-10 col-xs-10 pull-left ">
+                            <div class="input-group">
+                              <input type="text" class="form-control" ng-model="query" placeholder="Search by typing in module name, author, theme" aria-describedby="basic-addon2">
+                              <span class="input-group-addon glyphicon glyphicon-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div ng-repeat="module in moduleList | filter:query" class="col-md-4 module-card">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <span class="label-{{module.abbr}} theme-label ">Theme:</span> 
+                                    <a class="theme-name" href="#" ng-click="updateQuery(module.theme)">{{module.theme}}</a>
+                                </div>
+                                <div class="panel-body">
+                                    Module Title: {{module.module}}
+                                    <p ng-if="module.link"><a target="_blank" href="{{module.link}}" class="module-link btn btn-primary" role="button">View</a> </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/controllers.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
