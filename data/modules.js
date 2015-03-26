@@ -63,22 +63,26 @@
  	
  	{"theme": "Qualitative Approaches to Health Science Research",
      "module": "Theoretical Frameworks and Traditions",
-     "abbr": "qualitative-approaches-to-health-science-research"
+     "abbr": "qualitative-approaches-to-health-science-research",
+     "link": "http://emodules.med.utoronto.ca/HSR/CA1/story.html"
  	 },
 
  	{"theme": "Qualitative Approaches to Health Science Research",
      "module": "Research Design: Procedures and Process",
-     "abbr": "qualitative-approaches-to-health-science-research"
+     "abbr": "qualitative-approaches-to-health-science-research",
+     "link": "http://emodules.med.utoronto.ca/HSR/CA2/story.html"
  	 },
 
  	 {"theme": "Qualitative Approaches to Health Science Research",
      "module": "Analytic Rigour",
-     "abbr": "qualitative-approaches-to-health-science-research"
+     "abbr": "qualitative-approaches-to-health-science-research",
+     "link": "http://emodules.med.utoronto.ca/HSR/CA3/story.html"
  	 },
 
  	 {"theme": "Qualitative Approaches to Health Science Research",
      "module": "New and Emerging Approaches and Methods",
-     "abbr": "qualitative-approaches-to-health-science-research"
+     "abbr": "qualitative-approaches-to-health-science-research",
+     "link": "http://emodules.med.utoronto.ca/HSR/CA4/story.html"
  	},
 
 
