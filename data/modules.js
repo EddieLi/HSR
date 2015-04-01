@@ -19,8 +19,8 @@
 
  	{"theme": "Finding the Evidence: Searching and Reference Management",
      "module": "Searching for Grey literature",
-     "abbr": "finding-the-evidence"
-
+     "abbr": "finding-the-evidence",
+     "link": "http://emodules.med.utoronto.ca/HSR/grey/story.html"
  	 },
 
  	{"theme": "Finding the Evidence: Searching and Reference Management",
@@ -92,7 +92,7 @@
  	},
 
  	{"theme": "Critical Appraisal of the Literature",
-     "module": "Research Design: Procedures and Process",
+     "module": "Qaulitative Research",
      "abbr": "critical-appraisal-of-the-literature",
      "link": "http://emodules.med.utoronto.ca/HSR/CA1/story.html"
  	 },
