@@ -8,7 +8,8 @@
 
    	{"theme": "Finding the Evidence: Searching and Reference Management",
      "module": "Database Searching",
-     "abbr": "finding-the-evidence"
+     "abbr": "finding-the-evidence",
+     "link": "http://emodules.med.utoronto.ca/HSR/EDDatabase/story.html"
  	},
 
  	{"theme": "Finding the Evidence: Searching and Reference Management",
@@ -20,12 +21,12 @@
  	{"theme": "Finding the Evidence: Searching and Reference Management",
      "module": "Searching for Grey literature",
      "abbr": "finding-the-evidence",
-     "link": "http://emodules.med.utoronto.ca/HSR/grey/story.html"
+     "link": "http://emodules.med.utoronto.ca/HSR/EDGrey/story.html"
  	 },
 
  	{"theme": "Finding the Evidence: Searching and Reference Management",
-     "module": "Citation management",
-     "link": "http://emodules.med.utoronto.ca/HSR/Citation/story.html",
+     "module": "Citation Management Resources",
+     "link": "http://emodules.med.utoronto.ca/HSR/EDCitation/story.html",
      "abbr": "finding-the-evidence"
 
  	 },
