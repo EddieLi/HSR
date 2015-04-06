@@ -93,7 +93,7 @@
  	},
 
  	{"theme": "Critical Appraisal of the Literature",
-     "module": "Qaulitative Research",
+     "module": "Qualitative Research",
      "abbr": "critical-appraisal-of-the-literature",
      "link": "http://emodules.med.utoronto.ca/HSR/CA1/story.html"
  	 },
@@ -124,10 +124,5 @@
  	 {"theme": "Knowledge Translation",
      "module": "N/A",
      "abbr": "knowledge-translation"
- 	 },
-
- 	 {"theme": "Alternative and/or new approaches to creating evidence - Mixed Methods, QI",
-     "module": "Critical Appraisal of the Literature - Systematic Review",
-     "abbr": "alternative-and-or-new-approaches"
  	 }
 ]
