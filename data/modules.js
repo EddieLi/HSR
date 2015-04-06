@@ -95,25 +95,25 @@
  	{"theme": "Critical Appraisal of the Literature",
      "module": "Qualitative Research",
      "abbr": "critical-appraisal-of-the-literature",
-     "link": "http://emodules.med.utoronto.ca/HSR/CA1/story.html"
+     "link": "http://emodules.med.utoronto.ca/HSR/CAQual/story.html"
  	 },
 
  	 {"theme": "Critical Appraisal of the Literature",
      "module": "Critical Appraisal of the Literature - Therapy and Prevention",
      "abbr": "critical-appraisal-of-the-literature",
-     "link": "http://emodules.med.utoronto.ca/HSR/CA2/story.html"
+     "link": "http://emodules.med.utoronto.ca/HSR/CATherapy/story.html"
  	 },
 
  	 {"theme": "Critical Appraisal of the Literature",
      "module": "Critical Appraisal of the Literature - Harm",
      "abbr": "critical-appraisal-of-the-literature",
-     "link": "http://emodules.med.utoronto.ca/HSR/CA3/story.html"
+     "link": "http://emodules.med.utoronto.ca/HSR/CAHarm/story.html"
  	 },
 
  	{"theme": "Critical Appraisal of the Literature",
      "module": "Critical Appraisal of the Literature - Systematic Review",
      "abbr": "critical-appraisal-of-the-literature",
-     "link": "http://emodules.med.utoronto.ca/HSR/CA4/story.html"
+     "link": "http://emodules.med.utoronto.ca/HSR/CASR/story.html"
  	},
 
  	 {"theme": "Relationship Between Scientific Endeavor and Clinical Practice. What is the Research Process?",
