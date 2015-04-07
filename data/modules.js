@@ -12,8 +12,20 @@
      "link": "http://emodules.med.utoronto.ca/HSR/EDDatabase/story.html"
  	},
 
+     {"theme": "Finding the Evidence: Searching and Reference Management",
+     "module": "Performing a Literature Search in Ovid",
+     "abbr": "finding-the-evidence",
+     "link": "http://emodules.med.utoronto.ca/HSR/EDOvid/story.html"
+     },
+
+     {"theme": "Finding the Evidence: Searching and Reference Management",
+     "module": "Turning a Research Question into a Search Question",
+     "abbr": "finding-the-evidence",
+     "link": "http://emodules.med.utoronto.ca/HSR/EDRQSQ/story.html"
+     },
+     
  	{"theme": "Finding the Evidence: Searching and Reference Management",
-     "module": "Developing a search question",
+     "module": "Developing a Research Question",
      "link": "http://emodules.med.utoronto.ca/HSR/searchquestion/story.html",
      "abbr": "finding-the-evidence"
  	},
@@ -85,13 +97,6 @@
      "abbr": "qualitative-approaches-to-health-science-research",
      "link": "http://emodules.med.utoronto.ca/HSR/Qual4/story.html"
  	},
-
-
- 	{"theme": "Research Ethics and Integrity",
-     "module": "Introduction to Research Ethics and Integrity",
-     "abbr": "research-ethics-and-integrity"
- 	},
-
  	{"theme": "Critical Appraisal of the Literature",
      "module": "Qualitative Research",
      "abbr": "critical-appraisal-of-the-literature",
