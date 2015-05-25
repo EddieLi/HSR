@@ -4,14 +4,6 @@
      "abbr": "asking-a-rq",
      "link": "http://emodules.med.utoronto.ca/HSR/RQ/story.html"
      },
-   	
-
-   	{"theme": "Finding the Evidence: Searching and Reference Management",
-     "module": "Database Searching",
-     "abbr": "finding-the-evidence",
-     "link": "http://emodules.med.utoronto.ca/HSR/EDDatabase/story.html"
- 	},
-
      {"theme": "Finding the Evidence: Searching and Reference Management",
      "module": "Performing a Literature Search in Ovid",
      "abbr": "finding-the-evidence",
@@ -23,13 +15,6 @@
      "abbr": "finding-the-evidence",
      "link": "http://emodules.med.utoronto.ca/HSR/EDRQSQ/story.html"
      },
-     
- 	{"theme": "Finding the Evidence: Searching and Reference Management",
-     "module": "Developing a Research Question",
-     "link": "http://emodules.med.utoronto.ca/HSR/searchquestion/story.html",
-     "abbr": "finding-the-evidence"
- 	},
-
  	{"theme": "Finding the Evidence: Searching and Reference Management",
      "module": "Searching for Grey literature",
      "abbr": "finding-the-evidence",
