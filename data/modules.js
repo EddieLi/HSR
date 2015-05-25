@@ -28,37 +28,83 @@
 
  	 },
 
-
  	{"theme": "Quantitative Research - Epidemiology",
-     "module": "1",
+     "module": "Interpreting Test Results",
+     "link": "http://emodules.med.utoronto.ca/HSR/EpiTestResults/story.html",
      "abbr": "quantitative-research-epidemiology"
  	 },
 
  	 {"theme": "Quantitative Research - Epidemiology",
-     "module": "2",
+     "module": "Measures of Association",
+     "link": "http://emodules.med.utoronto.ca/HSR/EpiAssociation/story.html",
      "abbr": "quantitative-research-epidemiology"
  	 },
 
  	{"theme": "Quantitative Research - Epidemiology",
-     "module": "3",
+     "module": "Study Designs",
+     "link": "http://emodules.med.utoronto.ca/HSR/EpiDesigns/story.html",
      "abbr": "quantitative-research-epidemiology"
  	 },
 
  	{"theme": "Quantitative Research - Epidemiology",
-     "module": "4",
+     "module": "Rates and Ratios",
+     "link": "http://emodules.med.utoronto.ca/HSR/EpiRatios/story.html",
      "abbr": "quantitative-research-epidemiology"
  	 },
 
- 	{"theme": "Quantitative Research - Epidemiology",
-     "module": "5",
-     "abbr": "quantitative-research-epidemiology"
- 	},
+
+
  	
  	{"theme": "Quantitative Research - Biostatistics",
-     "module": "6",
+     "module": "Biostatistics Part 1",
+     "link": "http://emodules.med.utoronto.ca/HSR/Biostats1/story.html",
      "abbr": "quantitative-research-biostatistics"
  	},
  	
+     {"theme": "Quantitative Research - Biostatistics",
+     "module": "Biostatistics Part 2",
+     "link": "http://emodules.med.utoronto.ca/HSR/Biostats2/story.html",
+     "abbr": "quantitative-research-biostatistics"
+     },
+     {"theme": "Quantitative Research - Biostatistics",
+     "module": "Biostatistics Part 3",
+     "link": "http://emodules.med.utoronto.ca/HSR/Biostats3/story.html",
+     "abbr": "quantitative-research-biostatistics"
+     },
+     {"theme": "Quantitative Research - Biostatistics",
+     "module": "Biostatistics Part 4",
+     "link": "http://emodules.med.utoronto.ca/HSR/Biostats4/story.html",
+     "abbr": "quantitative-research-biostatistics"
+     },
+     {"theme": "Quantitative Research - Biostatistics",
+     "module": "Biostatistics Part 5",
+     "link": "http://emodules.med.utoronto.ca/HSR/Biostats5/story.html",
+     "abbr": "quantitative-research-biostatistics"
+     },
+     {"theme": "Quantitative Research - Biostatistics",
+     "module": "Biostatistics Part 6",
+     "link": "http://emodules.med.utoronto.ca/HSR/Biostats6/story.html",
+     "abbr": "quantitative-research-biostatistics"
+     },
+     {"theme": "Quantitative Research - Biostatistics",
+     "module": "Biostatistics Part 7",
+     "link": "http://emodules.med.utoronto.ca/HSR/Biostats7/story.html",
+     "abbr": "quantitative-research-biostatistics"
+     },
+     {"theme": "Quantitative Research - Biostatistics",
+     "module": "Biostatistics Part 8",
+     "link": "http://emodules.med.utoronto.ca/HSR/Biostats8/story.html",
+     "abbr": "quantitative-research-biostatistics"
+     },
+     {"theme": "Quantitative Research - Biostatistics",
+     "module": "Biostatistics Part 9",
+     "link": "http://emodules.med.utoronto.ca/HSR/Biostats9/story.html",
+     "abbr": "quantitative-research-biostatistics"
+     },
+
+
+
+
  	{"theme": "Qualitative Approaches to Health Science Research",
      "module": "Theoretical Frameworks and Traditions",
      "abbr": "qualitative-approaches-to-health-science-research",
